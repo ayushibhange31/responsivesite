@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Mulish', sans-serif;
+}
+
+.navbar{
+  background-color: #fff !important;
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #3498db !important;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+  color: #3498db !important;
+}
+
+@media (max-width: 991px)
+{
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+}
+
+
+/* Home Page */
+
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 150px;
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name{
+  color: #3498db;
+}
+
+#header h2{
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover{
+  background-color: #3498db;
+  color: #fff;
+}
+
+.header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation: up-down  2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0%{
+    transform: translate(12px);
+  }
+  100%{
+    transform: translate(12px);
+  }
+}
+
+@keyframes up-down{
+  0%{
+    transform: translate(12px);
+  }
+  100%{
+    transform: translate(-12px);
+  }
+}
+
+
+/* Book Page */
+
+
+.sub-container form{
+background-color: plum;
+width: 84%;
+height: 100%;
+margin: auto;
+/* padding: 0 !important; */
+padding: 3%;
+}
+.addContainer .col-10{
+background-color: rgb(137, 152, 202);
+text-align: center;
+height: 20%;
+width: 84%;
+/* justify-self: center; */
+margin: auto;
+}
+
+.addContainer .col-10 h3{
+  font-family: sans-serif;
+}
+
+.addContainer .col-10 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .sub-container form{
+padding: 3%;
+margin: 0;
+} */
+.sub-container form label{
+color: rgb(63, 62, 62);
+font-size: x-large;
+font-weight: 500;
+display: flex;
+width: 45%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.sub-container form input{
+height: 30px;
+width: 45%;
+justify-content: center;
+
+}
+
+.sub-container form button{
+background-color: rgb(137, 152, 202);
+color: white;
+height: 40px;
+width: 45%;
+border: none;
+font-weight: 700;
+font-size: large;
+align-items: center;
+justify-content: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.addContainer form button:hover{
+  background-color: rgb(92, 116, 194);
+}
+
+.sub-container img{
+  width: 40%;
+  float: right;
+  top: 250px;
+  right: 140px;
+  position: absolute;
+}
+
+
+
+#head .animated{
+  animation: up-down  2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0%{
+    transform: translate(25px);
+  }
+  100%{
+    transform: translate(25px);
+  }
+}
+
+@keyframes up-down{
+  0%{
+    transform: translate(25px);
+  }
+  100%{
+    transform: translate(-25px);
+  }
+}
